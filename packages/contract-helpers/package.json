@@ -4,6 +4,9 @@
   "sideEffects": false,
   "license": "MIT",
   "description": "",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "cd ../.. && npx rimraf packages/contract-helpers/dist packages/math-utils/*.log*",
     "lint": "cd ../.. && eslint packages/contract-helpers/src/**/*.ts",
