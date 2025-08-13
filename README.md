@@ -1,3 +1,13 @@
+To generate the link
+- update the chain id in packages/contract-helpers/src/commons/types.ts
+- then go to packages/contract-helpers
+- run `yarn pack`
+- commit the file
+  Navigate to the file in the GitHub repository
+  Click on the file to view it
+  Click the "Raw" button (usually in the top-right corner of the file view)
+  Copy the URL from your browser's address bar
+
 <p align="center"> <a href="https://aave.com/" rel="noopener" target="_blank"><img width="300" src="https://aave.com/governanceGhosts.svg" alt="Aave logo"></a></p>
 
 <h1 align="center">Aave Utilities</h1>
