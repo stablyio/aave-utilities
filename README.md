@@ -1,12 +1,16 @@
 To generate the link
 - update the chain id in packages/contract-helpers/src/commons/types.ts
 - then go to packages/contract-helpers
-- run `yarn pack`
+- run `yarn version --patch && yarn pack`
 - commit the file
-  Navigate to the file in the GitHub repository
-  Click on the file to view it
-  Click the "Raw" button (usually in the top-right corner of the file view)
-  Copy the URL from your browser's address bar
+  - Navigate to the file in the GitHub repository
+  - Click on the file to view it
+  - Click the "Raw" button (usually in the top-right corner of the file view)
+  - Copy the URL from your browser's address bar (You might have to replace blob with raw in the url if it is not raw)
+
+OR
+
+you can run `yarn generate-pack` to do all of the above and commit that file and perform the rest of the steps
 
 <p align="center"> <a href="https://aave.com/" rel="noopener" target="_blank"><img width="300" src="https://aave.com/governanceGhosts.svg" alt="Aave logo"></a></p>
 
